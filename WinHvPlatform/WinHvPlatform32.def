@@ -1,0 +1,11 @@
+LIBRARY
+EXPORTS
+WHvCreatePartition
+WHvSetupPartition
+WHvMapGpaRange
+WHvUnmapGpaRange
+WHvCreateVirtualProcessor
+WHvGetVirtualProcessorRegisters
+WHvSetVirtualProcessorRegisters
+WHvSetPartitionProperty
+WHvRunVirtualProcessor
