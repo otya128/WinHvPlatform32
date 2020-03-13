@@ -174,7 +174,7 @@ WHvCancelRunVirtualProcessor(
     _In_ UINT32 Flags
 )
 {
-    return Call64<HRESULT>(pWHvCancelRunVirtualProcessor, VpIndex, Flags);
+    return Call64<HRESULT>(pWHvCancelRunVirtualProcessor, Partition, VpIndex, Flags);
 }
 
 EXTERN_C_END
