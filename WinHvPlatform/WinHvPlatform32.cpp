@@ -166,4 +166,15 @@ WHvRunVirtualProcessor(
     return Call64<HRESULT>(pWHvRunVirtualProcessor, Partition, VpIndex, ExitContext, ExitContextSizeInBytes);
 }
 
+HRESULT
+WINAPI
+WHvCancelRunVirtualProcessor(
+    _In_ WHV_PARTITION_HANDLE Partition,
+    _In_ UINT32 VpIndex,
+    _In_ UINT32 Flags
+)
+{
+    return Call64<HRESULT>(pWHvCancelRunVirtualProcessor, VpIndex, Flags);
+}
+
 EXTERN_C_END
