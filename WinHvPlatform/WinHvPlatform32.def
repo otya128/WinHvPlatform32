@@ -9,3 +9,5 @@ WHvGetVirtualProcessorRegisters
 WHvSetVirtualProcessorRegisters
 WHvSetPartitionProperty
 WHvRunVirtualProcessor
+WHvCancelRunVirtualProcessor
+
